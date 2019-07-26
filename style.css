@@ -1,0 +1,85 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1{
+    font-family: 'Comfortaa', cursive;
+}
+
+h2{
+    font-weight: normal;
+}
+
+input{
+    width: 300px;
+    padding: .8em 1.2em;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .3em;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.center{
+    text-align: center;
+}
+
+span{
+    font-size: 1.2em;
+}
+
+button{
+    background: #007bff;
+    color: #fff;
+    border: 2px solid #007bff;
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 2px;
+    width: 300px;
+
+}
+
+button:hover{
+    background: #fff;
+    color: grey;
+}
+
+input[type=radio]{
+    display: inline;
+    width: fit-content;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.mr{
+    margin-right: 35px;
+}
+
+input[type=checkbox]{
+    display: inline;
+    width: fit-content;
+    margin-right: 8px;
+}
