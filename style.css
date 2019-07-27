@@ -17,6 +17,8 @@ button{
 
 body{
     font-family: 'Segoe UI', sans-serif;
+    background: lightblue;
+    color: #212529;
 }
 
 h1{
@@ -82,4 +84,32 @@ input[type=checkbox]{
     display: inline;
     width: fit-content;
     margin-right: 8px;
+}
+
+*{
+    border: 1px solid black;
+}
+
+.chart-div{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.item-div{
+    width: 2.5em;
+    display: inline-block;
+}
+
+.items{
+    height: 10em;
+}
+
+.item-div-cal{
+    vertical-align: bottom;
+    display: inline-block;
+    width: 2em;
+}
+
+.item-div-cal .items-cal{
+    height: 2em;
 }
