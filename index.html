@@ -12,16 +12,16 @@
             <h2 class="center">We'll help with your budget but complete this form </h2>
             <form class="center">
                 <input id="name" type="text" placeholder="enter name"> <br>
-                <input type="number" placeholder="income in $">
-<br>                <input type="number" placeholder="age"> <br>
+                <input id="income" min="1" type="number" placeholder="income in $">
+<br>                <input type="number" min="18" placeholder="age"> <br>
                 <div>
                     <label class="mr"><b>Gender:</b></label>
                     <label>Male<input type="radio" name="gender"> </label>
                     <label>Female<input type="radio" name="gender"></label>
                 </div><br>
-                <input type="number" placeholder="dependents"><br>
+                <input type="number" placeholder="no. of dependents" min="0"><br>
                 <label><input type="checkbox">I'm married</label>
-                <button>Submit</button>
+                <a id="submit" href="budget.html">Submit</a>
             </form>
             
         </div>

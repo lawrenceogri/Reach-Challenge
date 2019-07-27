@@ -27,6 +27,7 @@ h1{
 
 h2{
     font-weight: normal;
+    font-size: 1.3em;
 }
 
 input{
@@ -51,7 +52,7 @@ span{
     font-size: 1.2em;
 }
 
-button{
+a, button{
     background: #007bff;
     color: #fff;
     border: 2px solid #007bff;
@@ -61,10 +62,11 @@ button{
     margin-top: 20px;
     border-radius: 2px;
     width: 300px;
+    text-decoration: none;
 
 }
 
-button:hover{
+a:hover, button:hover{
     background: #fff;
     color: grey;
 }
@@ -87,17 +89,22 @@ input[type=checkbox]{
 }
 
 *{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .chart-div{
-    width: 90%;
-    margin: 0 auto;
+    width: fit-content;
+    margin-left: 5%;
+    display: inline-block;
+    float: left;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
 }
 
 .item-div{
-    width: 2.5em;
+    width: 2.2em;
     display: inline-block;
+    margin-right: 8px;
 }
 
 .items{
@@ -111,5 +118,42 @@ input[type=checkbox]{
 }
 
 .item-div-cal .items-cal{
-    height: 2em;
+    height: 2.5em;
+    border-bottom: 1px solid grey;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.key{
+    width: 15%;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.key-color{
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+}
+
+.key-label{
+    display: inline-block;
+    width: fit-content;
+}
+
+.key-label, .key-color{
+    padding: 0;
+    margin: 0;
+}
+
+.key-container{
+    margin-bottom: 5px;
+}
+
+.key-label{
+    font-size: 0.8em;
+}
+
+h3{
+    margin-top: 0;
 }
