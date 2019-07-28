@@ -28,6 +28,7 @@ h1{
 h2{
     font-weight: normal;
     font-size: 1.3em;
+    margin-bottom: 50px;
 }
 
 input{
@@ -94,11 +95,12 @@ input[type=checkbox]{
 
 .chart-div{
     width: fit-content;
-    margin-left: 5%;
-    display: inline-block;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     border-bottom: 1px solid grey;
     border-left: 1px solid grey;
+    /* border: 5px solid black; */
 }
 
 .item-div{
@@ -125,20 +127,29 @@ input[type=checkbox]{
 }
 
 .key{
-    width: 15%;
-    display: inline-block;
-    margin-left: 25px;
+    display: block;
+    margin-bottom: 30px;
+    /* border: 5px solid black; */
+    width: fit-content;
+    text-align: center;
+
 }
 
 .key-color{
-    display: inline-block;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
     height: 1em;
     width: 1em;
+    /* border: 1px solid black; */
+
 }
 
 .key-label{
     display: inline-block;
     width: fit-content;
+    /* border: 1px solid black; */
+
 }
 
 .key-label, .key-color{
@@ -148,12 +159,27 @@ input[type=checkbox]{
 
 .key-container{
     margin-bottom: 5px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    min-width: 60px;
+    
+
 }
 
 .key-label{
     font-size: 0.8em;
 }
 
+.key div{
+    display: inline-block;
+}
+
 h3{
     margin-top: 0;
+}
+
+.container{
+    width: fit-content;
+    margin: 0 auto;
+    /* border: 1px solid black; */
 }

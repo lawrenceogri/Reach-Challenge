@@ -11,5 +11,5 @@ if (submit != null) {
 }
 
 if(nameText != null){
-    nameText.innerHTML = `Here you go ${localStorage.getItem('myName')}`;
+    nameText.innerHTML = `Here you go ${localStorage.getItem('myName')},`;
 }
