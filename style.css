@@ -107,11 +107,12 @@ input[type=checkbox]{
     width: 2.2em;
     display: inline-block;
     margin-right: 8px;
+    height: 20em;
+    vertical-align: bottom;
+
 }
 
-.items{
-    height: 10em;
-}
+
 
 .item-div-cal{
     vertical-align: bottom;
